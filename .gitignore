@@ -1,0 +1,10 @@
+# Maven
+target/
+*.iml
+.idea/
+.DS_Store
+# Serenity reports
+**/target/site/serenity/**
+# Drivers (keep path but ignore actual binaries)
+src/test/resources/drivers/*
+!src/test/resources/drivers/.keep
